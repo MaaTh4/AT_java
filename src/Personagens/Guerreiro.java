@@ -3,7 +3,7 @@ package Personagens;
 import Util.Dados;
 import static Util.Dados.d4;
 
-    public class Guerreiro extends Dados implements PersonagensStats {
+    public class Guerreiro implements PersonagensStats {
         String name = "Guerreiro";
         int healthPoints = 12;
         int strength = 4;
