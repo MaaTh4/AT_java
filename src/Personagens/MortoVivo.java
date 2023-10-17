@@ -3,7 +3,7 @@ package Personagens;
 import Util.Dados;
 import static Util.Dados.d4;
 
-public class MortoVivo extends Dados implements PersonagensStats {
+public class MortoVivo implements PersonagensStats {
     String name = "Morto-Vivo";
     int healthPoints = 25;
     int strength = 4;
