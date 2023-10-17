@@ -2,7 +2,7 @@ package Personagens;
 
 import Util.Dados;
 import static Util.Dados.d4;
-public class Paladino extends Dados implements PersonagensStats {
+public class Paladino implements PersonagensStats {
     String name = "Paladino";
     int healthPoints = 15;
     int strength = 2;
