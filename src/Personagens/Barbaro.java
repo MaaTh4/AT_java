@@ -4,7 +4,7 @@ import Util.Dados;
 
 import static Util.Dados.d6;
 
-public class Barbaro  implements PersonagensStats {
+public class Barbaro implements PersonagensStats {
         String name = "Barbaro";
         int healthPoints = 13;
         int strength = 6;
