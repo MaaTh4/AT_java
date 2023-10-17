@@ -3,7 +3,7 @@ package Personagens;
 import Util.Dados;
 import static Util.Dados.d2;
 
-public class Kobold extends Dados implements PersonagensStats {
+public class Kobold implements PersonagensStats {
     String name = "Kobold";
     int healthPoints = 25;
     int strength = 4;
